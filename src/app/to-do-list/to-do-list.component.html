@@ -1,0 +1,12 @@
+<div class="to-do-list-container">
+  <div class="top-container">
+    <input [(ngModel)]="newTaskToAdd" type="text" placeholder="Enter your Task here" />
+    <button (click)="addTask($event)">
+      Save
+    </button>
+  </div>
+  <div class="task-container" *ngFor="let task of tasks">
+    <h1>{{task.taskDesc}}</h1>
+    <img src="https://icon-library.com/images/delete-icon-png/delete-icon-png-19.jpg" (click)="deletePerson(task)" />
+  </div>
+</div>

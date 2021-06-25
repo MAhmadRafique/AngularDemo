@@ -1,0 +1,28 @@
+#mapid {
+  height: 80vh;
+  width: 80vw;
+  margin: 20px 0px;
+}
+
+.adsenseblock {
+  background-color: #fff;
+  margin: 20px 0px;
+  height: 108px;
+  width: 320px;
+}
+
+.functionalities-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  /* background-color: #f3f3f3; */
+  background-color: rgb(3, 22, 39);
+  height: 100vh;
+  padding: 60px 0px;
+}
+
+.btn_googleLogin {
+  cursor: pointer;
+  border-radius: 20px;
+}

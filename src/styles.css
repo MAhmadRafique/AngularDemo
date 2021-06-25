@@ -1,0 +1,7 @@
+* {
+  margin: 0px;
+} /* You can add global styles to this file, and also import other style files */
+
+body {
+  background-color: rgb(3, 22, 39);
+}
